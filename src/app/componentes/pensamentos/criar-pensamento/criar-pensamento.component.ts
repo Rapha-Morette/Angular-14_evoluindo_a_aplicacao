@@ -3,6 +3,7 @@ import { PensamentoService } from './../pensamento.service';
 import { Pensamento } from './../pensamento';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { MinusculoValidator } from './minusculoValidators';
 
 @Component({
   selector: 'app-criar-pensamento',
@@ -29,7 +30,7 @@ export class CriarPensamentoComponent implements OnInit {
       ],
       autoria: [
         '',
-        Validators.compose([Validators.required, Validators.minLength(3)]),
+        Validators.compose([Validators.required, Validators.minLength(3), MinusculoValidator]),
       ],
       modelo: ['modelo1'],
     });
