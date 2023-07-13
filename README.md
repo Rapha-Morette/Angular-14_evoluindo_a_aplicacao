@@ -1,6 +1,6 @@
 # Memoteca
 
-Projeto proporcionado pelo curso Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD da formação Explore o framework Angular da Alura onde foi proporcionando os seguintes ensinamentos:
+Projeto proporcionado pelo curso Angular 14: evoluindo a aplicação da formação Explore o framework Angular da Alura onde foi proporcionando os seguintes ensinamentos:
 
 - Aprenda a construir formulários reativos
 - Aplique validações no formulário através da classe Validators
